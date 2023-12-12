@@ -1,0 +1,49 @@
+<.contenedor{
+	padding: 20px;
+	text-align: left;
+	font-size: 2em;
+}
+
+html,
+body {
+  height: 1000px;
+  background-image: url("img/Fondo1.jpg");
+  background-size: cover;
+  background-size: 100rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+	/*background-color: #F5F5DC;
+	margin: 10px;*/
+}
+
+.contenedor > div:nth-child(1){
+	background-color: #96ceb4;
+	color: white;
+}
+
+.contenedor > div:nth-child(2){
+	background-color: #FFD700;
+	color: white;
+}
+
+.contenedor > div:nth-child(3){
+	background-color: #F0F8FF;
+	color: black;
+}
+
+.contenedor > div:nth-child(4){
+	background-color: #ff6f69;
+	color: white;
+}
+
+.contenedor > div:nth-child(5){
+	background-color: #96ceb4;
+	color: white;
+}
+
+.contenedor > div:nth-child(6){
+	background-color: #ff6f69;
+	color: white;
+}

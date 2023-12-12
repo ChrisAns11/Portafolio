@@ -1,0 +1,24 @@
+.contenedor{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 60px auto 100px;
+
+}
+
+.cabecera{
+	grid-column: 5 / -5;
+
+}
+
+
+.contenido{
+	grid-column: 2 / -2;
+
+
+}
+
+.footer{
+	grid-column: 3 / -3;
+
+}

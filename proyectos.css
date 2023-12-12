@@ -1,0 +1,65 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/Fondo1.jpg') center/cover no-repeat; /* Reemplaza con la ruta de tu imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor {
+	display: grid;
+    grid-template-columns: 1fr; /* Una columna */
+    grid-gap: 20px; /* Espacio entre celdas */
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    white-space: pre-line;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black; /* Borde blanco */
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+th {
+    background-color: #ddd; /* Azul más oscuro para encabezados */
+    color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+.button-container {
+	text-align: center;
+	margin-top: 20px; /* Mueve el contenedor del botón hacia la parte inferior */
+}
+
+.button {
+padding: 10px 20px;
+background-color: #84b6f4;
+color: black;
+text-decoration: none;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+transition: background-color 0.3s ease;
+
+}
+
+.button:hover {
+background-color: #f4fab4;
+}
